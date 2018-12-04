@@ -18,16 +18,16 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
-<distributionManagement>
+  <distributionManagement>
      <repository>
          <id>nexus</id>
              <url>http://84.39.44.237:8081/nexus/content/repositories/releases/</url>
      </repository>
-<snapshotRepository>
-<id>nexus</id>
-<url>http://84.39.44.237:8081/nexus/content/repositories/snapshots</url>
-</snapshotRepository>
-</distributionManagement>
+         <snapshotRepository>
+           <id>nexus</id>
+               <url>http://84.39.44.237:8081/nexus/content/repositories/snapshots</url>
+         </snapshotRepository>
+  </distributionManagement>
 
 <scm>
      <connection>scm:git:git@github.com:niharikabachu/accenture-devops.git</connection>
