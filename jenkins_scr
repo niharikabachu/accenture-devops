@@ -9,6 +9,8 @@ whoami
 
 touch jenkins
 echo "[INFO] *****************"
+
+echo "[INFO] *****************"
 ls -ltr
 echo "[INFO] *****************"
 cat jenkins
